@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Offline — Project Tracker</title>
+	<style>
+		body {
+			font-family: "Inter", -apple-system, "Helvetica Neue", Arial, sans-serif;
+			background: #ffffff;
+			color: #141414;
+			margin: 0;
+			min-height: 100vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.card {
+			text-align: center;
+			background: #f3f3f3;
+			border-radius: 24px;
+			padding: 48px 32px;
+			max-width: 360px;
+			margin: 16px;
+		}
+		.card img {
+			width: 56px;
+			height: 56px;
+			display: block;
+			margin: 0 auto 20px;
+		}
+		h1 {
+			font-size: 20px;
+			font-weight: 650;
+			margin: 0 0 8px;
+		}
+		p {
+			font-size: 14px;
+			color: #707070;
+			margin: 0 0 24px;
+		}
+		button {
+			font: inherit;
+			font-size: 14px;
+			font-weight: 600;
+			color: #ffffff;
+			background: #141414;
+			border: none;
+			border-radius: 9999px;
+			min-height: 44px;
+			padding: 0 24px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<div class="card">
+		<img src="/assets/img/logo.svg" alt="Project Tracker" onerror="this.style.display='none'">
+		<h1>Kamu sedang offline.</h1>
+		<p>Periksa koneksi internet, lalu coba lagi.</p>
+		<button type="button" onclick="location.reload()">Coba Lagi</button>
+	</div>
+</body>
+</html>
